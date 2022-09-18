@@ -5,7 +5,7 @@ services:
     ports:
       - 8000:8000
   volumes:
-      - 'jupyterhub_data:/srv/jupyterhub'
+      - jupyterhub_data:/srv/jupyterhub
 volumes:
   jupyterhub_data:
     driver: local
