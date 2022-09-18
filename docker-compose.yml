@@ -9,3 +9,4 @@ services:
 volumes:
   jupyterhub_data:
     driver: local
+    size: 0.5Gi
